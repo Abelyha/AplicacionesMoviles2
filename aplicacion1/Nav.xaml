@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                x:Class="aplicacion1.Nav"
+                Title="Nav">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".25*"/>
+            <ColumnDefinition Width=".75*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Ica" FontSize="20" Grid.Column="0" Grid.Row="0"/>
+        <Label Text="Arequipa" FontSize="20" Grid.Column="0" Grid.Row="1"/>
+        <Label Text="Cuzco" FontSize="20" Grid.Column="0" Grid.Row="2"/>
+        <Label Text="Tacna" FontSize="20" Grid.Column="0" Grid.Row="3"/>
+
+        <ImageButton Grid.Column="1" Grid.Row="1" Source="&lt; https://upload.wikimedia.org/wikipedia/commons/b/b0/AQP--01-178.jpg>"/>
+        <ImageButton Grid.Column="1" Grid.Row="2" Source="&lt; ://photo620x400.mnstatic.com/21ca60b0d4d153e1d74b776a7a0fac56/cusco-_-cuzco.jpg>"/>
+        <ImageButton Grid.Column="1" Grid.Row="0" Source="&lt; ://www.peru.travel/Contenido/Destino/Imagen/es/5/1.2/Principal/SouthAmericaPeru2017_1010_180704-5912_AGP_HDR.jpg>"/>
+        <ImageButton Grid.Column="1" Grid.Row="3" Source="&lt; ://elcomercio.pe/resizer/00lZvr5ca0u2yznvHHqjlFm1V6c=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/TNO2YFHQSZATTPZCIKL5BTSUCQ.jpg>"/>
+    </Grid>
+
+
+</ContentPage>
